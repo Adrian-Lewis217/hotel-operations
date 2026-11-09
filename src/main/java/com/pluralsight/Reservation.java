@@ -20,6 +20,7 @@ public class Reservation {
     }
 
     public void setRoomType(String roomType) {
+        if (roomType.equals("King"))
         this.roomType = roomType;
     }
 
