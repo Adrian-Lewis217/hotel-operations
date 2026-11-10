@@ -43,7 +43,7 @@ public class Employee {
         }
     }
 
-    public double getRegularHour(){
+    public double getRegularHours(){
         if (hoursWorked <= 40){
             return  hoursWorked;
         } else {
